@@ -1,9 +1,9 @@
 <p align="center">
     <img style="width: 100px; height: auto;" src="https://github.com/user-attachments/assets/76031be2-f446-4a19-a61c-b1fe8de98ea8">
 </p>
-<h4 align="center">
+<h3 align="center">
     Discord ANSI Art Generator
-</h4>
+</h3>
 <p align="center">
     Make beautiful arts in Discord using ANSI and Python
 </p>
@@ -16,6 +16,8 @@
 - [🚧┃Warnings & Tips](#warnings-&-tips)
 - [🌠┃Plans](#plans)
 - [📝┃License](#license)
+- [💽┃Examples](#examples)
+- [🎨┃Colors](#colors)
 
 ## `🥽` Requirements [[🔱]](#table-of-contents)
 
@@ -69,3 +71,25 @@ python main.py
 
 ## `📝` License [[🔱]](#table-of-contents)
 You can read license [here](./LICENSE) 
+
+## `💽` Examples [[🔱]](#table-of-contents)
+
+#### `Disnake logo (mod: 9-bit)`
+<img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/a89ab64d-fca4-4c9f-9c3e-e111a3bf694a">
+<img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/7936102a-8671-4cea-84de-b96d9debca8f">
+
+#### `Isagi eye (mod: gray)`
+<img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/5b3d9850-9311-4e5c-af51-879651e4dc7d">
+<img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/29630c3e-0cae-4f24-8c16-3e873581c07d">
+
+
+#### `Meteor (mod: 6-bit)`
+<img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/c1667b31-3861-41e2-8141-74f922cb6c46">
+<img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/5c8f8243-8518-4f5b-aee3-d6045eb0d4fd">
+
+### `🎨` Colors [[🔱]](#table-of-contents)
+#### `9-bit`
+<img style="width: auto; height: 300px;" src="https://github.com/user-attachments/assets/57fe53f8-353f-43ef-8c6c-8076913434eb">
+
+#### `6-bit`
+<img style="width: auto; height: auto;" src="https://github.com/user-attachments/assets/7aa8c87a-5b47-476b-ac25-f64968af3042">
