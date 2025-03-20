@@ -1,9 +1,3 @@
-<style>
-h1 {
-    text-align: center;
-}
-</style>
-
-<h1>
+<h1 align="center">
     <b>Discord ANSI Art Generator</b>
 </h1>

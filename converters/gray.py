@@ -63,7 +63,7 @@ def img_to_ascii(img: np.ndarray, pixels: int) -> str:
 
 
 def process_image(path: str, length: int) -> None:
-    img = cv2.imread(path)
+    img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
     pixels = int((length - 10) / 7)
     interation = 0
     res = None
