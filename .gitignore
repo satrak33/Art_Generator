@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+
+# Virtual Environments
+.venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+
+# Packages
+dist/
+build/
+
+# Other
+*.swp
+*.swo
+*~
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.webp

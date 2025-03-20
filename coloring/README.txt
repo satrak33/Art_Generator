@@ -1,0 +1,1 @@
+This folder contains scripts to make new ANSI dicts and if you want to make your own dictionary you can do it here
