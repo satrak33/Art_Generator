@@ -52,17 +52,18 @@ pip install -r requirements.txt
 python main.py
 ```
 #### Or using without SLI
-- [Gray convertor](./converters/gray.py)
-- [Color convertor](./converters/color.py)
+- [Gray converter](./converters/gray.py)
+- [Color converter](./converters/color.py)
 
 ## `🚧` Warnings & Tips [[🔱]](#-table-of-contents)
 ### `🎈` Tips:
-- You can right-click in cmd or powershell to paste path
-- Optimazing algorithm works better with pictures wich have one dominating color like photos of space
+- You can right-click in cmd or powershell to paste the path
+- The optimizing algorithm works bette with pictures that have one dominating color
 
 ### `🔥` Warnings:
-- Don`t use huge custom length, it will take a lot of time, and it will increase in geometry progression
-- ANSI don`t support purple
+- Don't use huge custom lengths, it will take a lot of time, and time will increase in geometry progression
+- ANSI doesn’t support purple
+- IDE's terminals don't support SLI
 
 ## `🌠` Plans [[🔱]](#-table-of-contents)
 - Try to add more color modes by making automatic algorithm
