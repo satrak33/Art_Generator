@@ -7,6 +7,7 @@ import converters
 def is_valid_number(_, current):
     return current.isdigit()
 
+
 def is_valid_image(_, current):
     image = cv2.imread(current)
     if image is None:
@@ -55,6 +56,7 @@ def get_answers():
     answers.update(answers2)
 
     return answers
+
 
 def process_answers(answers):
     size = answers["size"]

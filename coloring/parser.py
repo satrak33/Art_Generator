@@ -3,6 +3,7 @@ import time
 
 colors = []
 
+
 def loop():
     color = None
 
