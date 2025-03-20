@@ -65,7 +65,7 @@ def img_to_ascii(img: np.ndarray, pixels: float) -> str:
         ascii_art = ascii_art[4:]
 
     ascii_art = trim_text(ascii_art)
-    ascii_art = f"```ansi\n{ascii_art}```"
+    ascii_art = f"```ansi\n{ascii_art.rstrip()}```"
 
     print(f"Length of ascii art: {len(ascii_art)}", end="\t")
     return ascii_art

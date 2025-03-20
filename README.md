@@ -58,7 +58,7 @@ python main.py
 ## `🚧` Warnings & Tips [[🔱]](#-table-of-contents)
 ### `🎈` Tips:
 - You can right-click in cmd or powershell to paste the path
-- The optimizing algorithm works bette with pictures that have one dominating color
+- The optimizing algorithm works better with pictures that have one dominating color
 
 ### `🔥` Warnings:
 - Don't use huge custom lengths, it will take a lot of time, and time will increase in geometry progression
