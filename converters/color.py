@@ -84,7 +84,7 @@ def process_image(path: str, length: int, color: str) -> None:
     if color == "9-bit":
         COLOR_NAMES = data.COLOR_NAMES_261
     elif color == "6-bit":
-        COLOR_NAMES = data.COLOR_NAMES_33
+        COLOR_NAMES = data.COLOR_NAMES_37
     else:
         raise ValueError("Unknown color mode.")
 
@@ -116,6 +116,6 @@ def process_image(path: str, length: int, color: str) -> None:
 if __name__ == "__main__":
     start_time = perf_counter()
 
-    process_image("path", 2000, "9-bit")
+    process_image("../images/45482144.png", 2000, "9-bit")
 
     print(f"Total processing time: {perf_counter() - start_time:.3f} сек")

@@ -64,7 +64,7 @@ def img_to_ascii(img: np.ndarray, pixels: int) -> str:
 
 def process_image(path: str, length: int) -> None:
     img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
-    pixels = int((length - 10) / 7)
+    pixels = int((length - 6) / 7)
     interation = 0
     res = None
 
@@ -74,7 +74,7 @@ def process_image(path: str, length: int) -> None:
         new_ascii = img_to_ascii(img, pixels)
         pixels += 10
 
-        if len(new_ascii) > 2000:
+        if len(new_ascii) > length:
             break
 
         res = new_ascii
@@ -88,6 +88,6 @@ def process_image(path: str, length: int) -> None:
 if __name__ == "__main__":
     start_time = perf_counter()
 
-    process_image("path", 2000)
+    process_image("../images/cobalt-tools-icon-filled-256.png", 630)
 
     print(f"Total processing time: {perf_counter() - start_time:.3f} сек")

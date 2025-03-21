@@ -59,6 +59,7 @@ python main.py
 ### `🎈` Tips:
 - You can right-click in cmd or powershell to paste the path
 - The optimizing algorithm works better with pictures that have one dominating color
+- The 6-bit color mode is more suitable for black and white images
 
 ### `🔥` Warnings:
 - Don't use huge custom lengths, it will take a lot of time, and time will increase in geometry progression
