@@ -76,6 +76,11 @@ def process_image(path: str, length: int, color: str) -> None:
     global COLOR_KEYS
     global COLOR_VALUES
 
+    sym_for_pixels = {
+        "9-bit": 10,
+        "6-bit": 7
+    }
+
     if color == "9-bit":
         COLOR_NAMES = data.COLOR_NAMES_261
     elif color == "6-bit":
@@ -87,15 +92,15 @@ def process_image(path: str, length: int, color: str) -> None:
     COLOR_VALUES = np.array(list(COLOR_NAMES.values()))
 
     img = cv2.imread(path)
-    pixels = int((length - 10) / 7)
+    pixels = int((length - 10) / sym_for_pixels[color])
     interation = 0
     res = None
 
     while True:
         interation += 1
         print(f"\rIteration: {interation}", end="\t")
-        pixels += 10
         new_ascii = img_to_ascii(img, pixels)
+        pixels += 10
 
         if len(new_ascii) > length:
             break
@@ -111,6 +116,6 @@ def process_image(path: str, length: int, color: str) -> None:
 if __name__ == "__main__":
     start_time = perf_counter()
 
-    process_image("../images/a50821d98a87b2b7e5b6862829c5d544.jpg", 2000, "9-bit")
+    process_image("path", 2000, "9-bit")
 
     print(f"Total processing time: {perf_counter() - start_time:.3f} сек")

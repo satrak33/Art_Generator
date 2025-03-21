@@ -88,6 +88,6 @@ def process_image(path: str, length: int) -> None:
 if __name__ == "__main__":
     start_time = perf_counter()
 
-    process_image("../images/a50821d98a87b2b7e5b6862829c5d544.jpg", 2000)
+    process_image("path", 2000)
 
     print(f"Total processing time: {perf_counter() - start_time:.3f} сек")

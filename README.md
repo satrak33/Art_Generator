@@ -1,7 +1,7 @@
 <p align="center">
     <img style="width: 100px; height: auto;" src="https://github.com/user-attachments/assets/76031be2-f446-4a19-a61c-b1fe8de98ea8">
 </p>
-<h3 align="center">
+<h3 align="center" id="discord-ansi-art-generator">
     Discord ANSI Art Generator
 </h3>
 <p align="center">
@@ -19,7 +19,7 @@
 - [💽┃Examples](#-examples-)
 - [🎨┃Colors](#-colors-)
 
-## `🥽` Requirements [[🔱]](#-table-of-contents)
+## `🥽` Requirements [🔼](#discord-ansi-art-generator)
 
 - [Python](https://www.python.org/)
 - [OpenCV](https://pypi.org/project/opencv-python/)
@@ -27,7 +27,7 @@
 - [Numpy](https://pypi.org/project/numpy/)
 - [Pyperclip](https://pypi.org/project/pyperclip/)
 
-## `🔮` Installation [[🔱]](#-table-of-contents)
+## `🔮` Installation [🔼](#discord-ansi-art-generator)
 
 ### `📦┃Linux/macOS`
 ```bash
@@ -47,7 +47,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## `🎮` Usage [[🔱]](#-table-of-contents)
+## `🎮` Usage [🔼](#discord-ansi-art-generator)
 ```bash
 python main.py
 ```
@@ -55,7 +55,7 @@ python main.py
 - [Gray converter](./converters/gray.py)
 - [Color converter](./converters/color.py)
 
-## `🚧` Warnings & Tips [[🔱]](#-table-of-contents)
+## `🚧` Warnings & Tips [🔼](#discord-ansi-art-generator)
 ### `🎈` Tips:
 - You can right-click in cmd or powershell to paste the path
 - The optimizing algorithm works better with pictures that have one dominating color
@@ -65,15 +65,15 @@ python main.py
 - ANSI doesn’t support purple
 - IDE's terminals don't support SLI
 
-## `🌠` Plans [[🔱]](#-table-of-contents)
+## `🌠` Plans [🔼](#discord-ansi-art-generator)
 - Try to add more color modes by making automatic algorithm
 - Create Discord application 
 - Create site using GitHub Pages
 
-## `📝` License [[🔱]](#-table-of-contents)
+## `📝` License [🔼](#discord-ansi-art-generator)
 You can read license [here](./LICENSE) 
 
-## `💽` Examples [[🔱]](#-table-of-contents)
+## `💽` Examples [🔼](#discord-ansi-art-generator)
 
 #### `Disnake logo (mod: 9-bit)`
 <img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/a89ab64d-fca4-4c9f-9c3e-e111a3bf694a">
@@ -88,7 +88,7 @@ You can read license [here](./LICENSE)
 <img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/c1667b31-3861-41e2-8141-74f922cb6c46">
 <img style="width: auto; height: 200px;" src="https://github.com/user-attachments/assets/5c8f8243-8518-4f5b-aee3-d6045eb0d4fd">
 
-### `🎨` Colors [[🔱]](#-table-of-contents)
+### `🎨` Colors [🔼](#discord-ansi-art-generator)
 #### `9-bit`
 <img style="width: auto; height: 300px;" src="https://github.com/user-attachments/assets/57fe53f8-353f-43ef-8c6c-8076913434eb">
 
