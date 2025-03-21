@@ -1,7 +1,7 @@
-<p align="center">
+<p align="center" id="discord-ansi-art-generator">
     <img style="width: 100px; height: auto;" src="https://github.com/user-attachments/assets/76031be2-f446-4a19-a61c-b1fe8de98ea8">
 </p>
-<h3 align="center" id="discord-ansi-art-generator">
+<h3 align="center">
     Discord ANSI Art Generator
 </h3>
 <p align="center">
