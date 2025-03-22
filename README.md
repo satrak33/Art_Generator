@@ -48,10 +48,17 @@ pip install -r requirements.txt
 ```
 
 ## `🎮` Usage [🔼](#discord-ansi-art-generator)
-```bash
+Tool supports 9-bit, 6-bit and grayscale modes. After script finished, result will be copied to clipboard
+#### Using with CLI
+```commandline
 python main.py
 ```
-#### Or using without SLI
+#### Using without CLI
+```commandline
+python main.py PATH_TO_IMAGE --size 800 --mode 9-bit 
+```
+
+#### Using directly in IDE
 - [Gray converter](./converters/gray.py)
 - [Color converter](./converters/color.py)
 
