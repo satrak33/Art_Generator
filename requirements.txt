@@ -1,3 +1,4 @@
 inquirer~=3.4.0
 opencv-python~=4.11.0.86
+pyperclip~=1.9.0
 numpy~=2.2.4
